@@ -1,0 +1,72 @@
+\documentclass[10pt,a4paper,uplatex]{jsarticle}
+\usepackage{bm}
+% \usepackage{graphicx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[truedimen,left=25truemm,right=25truemm,top=25truemm,bottom=25truemm]{geometry}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{jpdoc}
+\usepackage{tree}
+\usepackage[nofiglist,notablist,nomarkers]{endfloat}
+
+\renewcommand{\figurename}{別図}
+\newcommand{\figref}[1]{別図\ref{#1}}
+\renewcommand{\tablename}{別表}
+\newcommand{\tabref}[1]{別表\ref{#1}}
+
+\titleformat*{\section}{\large\bfseries}
+\def\title{職種職名区分規程}
+
+\def\alias#1{\十干{#1}}
+
+\begin{document}
+	\newpage
+{\centering \Large\bf \title  \vskip 0em}
+\vskip 2em
+
+\article{目的}
+この規程は、株式会社科学計算総合研究所に勤務する職員（以下、「職員」という。）の職務内容を明らかにし、人事・給与等事務処理の円滑化を図るため職種及び職名を区分し、取り扱うために定めるものとする。
+
+\article{職種及び職名の区分}
+職員の職種及び職名は、\tabref{tab:syokusyukubun}のとおりとする。
+\term 前項に定めるもののほか、職務の実情に応じて特別の職名を併せて付与することができる。
+
+\begin{table}[h]
+\centering
+\caption{株式会社科学計算総合研究所における職種及び職名の区分}
+\begin{tabular}{|l|l|ll|p{8cm}|}
+\hline
+部署 & 職種 & 職名 & &  職務内容 \\
+\hline
+\multirow{3}{*}{基盤研究部} & \multirow{3}{*}{研究職} & 部長 & Manager & 主任研究員の職務のほか、基盤研究部を統括する。\\
+\cline{3-5}
+& & 主任研究員 & Chief Researcher & 研究員の職務のほか、研究プロジェクトの主導する。\\
+\cline{3-5}
+& & 研究員  & Researcher & 研究活動その他の基礎研究部の事務分掌を遂行する。\\
+\hline
+\multirow{3}{*}{応用開発部} & \multirow{3}{*}{開発職} & 部長 & Manager & 主任技術員の職務のほか、応用開発部を統括する。\\
+\cline{3-5}
+& & 主任技術員 & Chief Engineer & 技術員の職務のほか、開発プロジェクトを主導する。\\
+\cline{3-5}
+& & 技術員  & Engineer & 開発活動その他の応用開発部の事務分掌を遂行する。\\
+\hline
+\multirow{2}{*}{総務部} & \multirow{2}{*}{事務職} & 部長  & Manager &  事務員の職務のほか、総務部を統括する。 \\
+\cline{3-5}
+& & 事務員 & Clerk & 庶務その他の総務部の事務分掌を遂行する。\\
+\hline
+\end{tabular}
+\label{tab:syokusyukubun}
+\end{table}
+
+
+\article{職種及び職名の決定}
+新たに職員になった者については、その職務内容に応じ前条に定めるところにより代表取締役が職種及び職名を決定する。職種及び職名を変更する場合も同様とする。
+
+\article{発令方法}
+職種及び職名は、代表取締役発令とする。ただし、代表取締役が特に認めた者については、職種及び職名の発令を省略することができる。
+
+\vspace{1cm}
+\subparagraph{附則}
+この規程は、令和2年7月1日から施行する。
+
+\end{document}
